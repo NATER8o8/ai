@@ -57,7 +57,7 @@ foreach ($resourceGroupName in $resourceGroupNames) {
 foreach ($resourceGroupName in $resourceGroupNames) {
     Remove-AzResourceGroup -Name $resourceGroupName -Force
 }
-```
+# ```
 
 # You can modify the `$resourceGroupNames` array to your preferred names for the resource groups.
 
